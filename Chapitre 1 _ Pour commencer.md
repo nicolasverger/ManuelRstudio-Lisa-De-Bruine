@@ -1,6 +1,6 @@
 Chapitre 1 : Pour commencer
 
-*Traduit par Fabrice **Gabarrot**. *
+* Traduit par Fabrice Gabarrot.
 
 1.1 Objectifs d'apprentissage
 
@@ -10,7 +10,7 @@ Chapitre 1 : Pour commencer
 
 3. Comprendre la *syntaxe des fonctions*
 
-4. *Installer un *‘package’
+4. *Installer un ‘package’*
 
 5. *Organiser un projet*
 
@@ -33,7 +33,7 @@ Chapitre 1 : Pour commencer
 * [Le guide de référence de RMarkdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) (EN)
 
 # 1.3 Qu’est-ce que R?
-
+![](images/1/image1.png)
 R est un environnement de programmation pour le traitement et l'analyse statistique de données. R est de plus en plus utilisé pour la recherche en psychologie afin de promouvoir et faciliter une science ouverte et reproductible. L’objectif est de pouvoir documenter et reproduire toutes les étapes entre les données brutes et les résultats. R vous permet d'écrire des scripts qui combinent des fichiers de données, nettoient les données et exécutent des analyses. Il y a beaucoup d'autres façons de le faire, comme écrire des fichiers de syntaxe SPSS, mais R est un outil utile dans la mesure où il est libre, open source, et couramment utilisé dans la recherche en psychologie et dans les autres sciences.
 
 <table>
@@ -48,6 +48,7 @@ R est un environnement de programmation pour le traitement et l'analyse statisti
 
 Si vous ouvrez l'application appelée R, vous verrez une fenêtre "R Console" qui ressemble à ceci.
 
+![image alt text](images/1/image2.png)
 <table>
   <tr>
     <td></td>
@@ -71,6 +72,8 @@ Lancez  (RStudio.app), pas  (R.app).</td>
 
 ### 1.3.2 RStudio
 
+![image alt text](images/1/image3.png)
+
 <table>
   <tr>
     <td></td>
@@ -92,6 +95,8 @@ Dans ce cours, vous apprendrez comment développer des scripts reproductibles. I
 Lorsque vous faites les choses de façon reproductible, les autres peuvent comprendre et vérifier votre travail. Cela profite à la science, mais il y a aussi une raison égoïste : la personne qui bénéficiera le plus d'un script reproductible est vous-même. Lorsque vous reviendrez à une analyse après deux semaines de vacances, vous remercierez votre moi antérieur d'avoir fait les choses de manière transparente et reproductible, car vous pouvez facilement reprendre là où vous vous étiez arrêté.
 
 Il y a deux modifications que vous devriez apporter à votre installation RStudio pour maximiser la reproductibilité. Allez dans le menu **Préférences/Paramètres**, et décochez la case **Restaurer .RData** dans l'espace de travail au démarrage. Si vous gardez les choses dans votre espace de travail, les choses deviendront désordonnées et des choses inattendues se produiront. Vous devriez toujours commencer par un espace de travail vierge. Cela signifie également que vous ne voulez jamais enregistrer votre espace de travail lorsque vous quittez RStudio, alors définissez ce paramètre sur **Jamais**. La seule chose que vous voulez sauver, ce sont vos scripts.
+
+![image alt text](images/1/image4.png)
 
 <table>
   <tr>
@@ -151,7 +156,7 @@ Vous pouvez décomposer des expressions mathématiques sur plusieurs lignes ; R 
 ## let's break it over multiple lines
 
 1 + 2 + 3 + 4 + 5 + 6 +
-    7 + 8 + 9 + 
+    7 + 8 + 9 +
     10</td>
   </tr>
 </table>
@@ -363,7 +368,7 @@ this_year <- 2020</td>
 
 Chaque fois que vous assignez quelque chose à une nouvelle variable, R crée un nouvel objet dans l'environnement global. Les objets dans l'environnement global existent jusqu'à la fin de votre session, puis ils disparaissent à jamais (à moins de les sauvegarder).
 
-Regardez l'onglet **Environnement** dans le volet supérieur droit. Il répertorie toutes les variables que vous avez créées. 
+Regardez l'onglet **Environnement** dans le volet supérieur droit. Il répertorie toutes les variables que vous avez créées.
 
 Cliquez sur l'icône du balai ![image alt text](image_0.png) pour effacer toutes les variables et recommencer à zéro. Vous pouvez également utiliser les fonctions suivantes dans la console pour afficher toutes les variables, supprimer une variable ou supprimer toutes les variables.
 
@@ -497,7 +502,8 @@ Si vous voulez 10 numéros d'une distribution avec une moyenne de 100 :
 
 <table>
   <tr>
-    <td>[1]  98.48191 100.43418  99.62359 100.29270 100.50828  98.70452 [7] 101.75982  99.46557  99.03663  99.94638</td>
+    <td>[1]  98.48191 100.43418  99.62359 100.29270 100.50828  98.70452
+[7] 101.75982  99.46557  99.03663  99.94638</td>
   </tr>
 </table>
 
@@ -529,7 +535,8 @@ Nous n'avons pas besoin de nommer les arguments parce que R reconnaîtra que nou
 
 <table>
   <tr>
-    <td>[1]  -81.60272   71.40418  -73.48568   28.09207  116.85255 [6] -242.48229  141.17281   16.89854   14.01350  -51.97355</td>
+    <td>[1]  -81.60272   71.40418  -73.48568   28.09207  116.85255
+[6] -242.48229  141.17281   16.89854   14.01350  -51.97355</td>
   </tr>
 </table>
 
@@ -668,17 +675,17 @@ jason()</td>
 
 <table>
   <tr>
-    <td>##  There really is an afterlife. I can't wait to have breakfast with Kant, and lunch with Michel Foucault, and then have dinner with Kant again so we can talk about what came up at breakfast! 
-## 
+    <td>##  There really is an afterlife. I can't wait to have breakfast with Kant, and lunch with Michel Foucault, and then have dinner with Kant again so we can talk about what came up at breakfast!
+##
 ##  ~ Chidi
-##  Oh, so now I'm supposed to be nice and make friends and treat her with mutual respect? 
-## 
+##  Oh, so now I'm supposed to be nice and make friends and treat her with mutual respect?
+##
 ##  ~ Eleanor
-##  That was my first time as a fashion "don't," and I did not care for it. 
-## 
+##  That was my first time as a fashion "don't," and I did not care for it.
+##
 ##  ~ Tahani
-##  I was just about to tell an awesome story about a wing-eating contest that I lost, and a barfing contest that I won, but then a hole opened up in the ground. 
-## 
+##  I was just about to tell an awesome story about a wing-eating contest that I lost, and a barfing contest that I won, but then a hole opened up in the ground.
+##
 ##  ~ Jason
 </td>
   </tr>
@@ -691,7 +698,8 @@ Les projets dans RStudio sont un moyen de regrouper tous les fichiers dont vous 
 
 <table>
   <tr>
-    <td></td>
+    <td>
+</td>
     <td>Créez un nouveau répertoire dans lequel vous conserverez tout votre matériel pour ce cours. Si vous utilisez un ordinateur de laboratoire, assurez-vous de créer ce répertoire dans votre lecteur réseau pour pouvoir y accéder à partir d'autres ordinateurs.
 Choisissez New Project... sous le menu File pour créer un nouveau projet appelé 01-intro dans ce répertoire.</td>
   </tr>
@@ -702,32 +710,7 @@ Choisissez New Project... sous le menu File pour créer un nouveau projet appel�
 
 Voici à quoi ressemble un script R. Ne vous inquiétez pas des détails pour l'instant.
 
-<table>
-  <tr>
-    <td># load add-on packages
-library(tidyverse)
-
-# set variables ----
-n <- 100
-
-# simulate data ----
-data <- data.frame(
-  id = 1:n,
-  dv = c(rnorm(n/2, 0), rnorm(n/2, 1)),
-  condition = rep(c("A", "B"), each = n/2)
-)
-
-# plot data ----
-ggplot(data, aes(condition, dv)) +
-  geom_violin(trim = FALSE) +
-  geom_boxplot(width = 0.25, 
-               aes(fill = condition),
-               show.legend = FALSE)
-
-# save plot ----
-ggsave("sim_data.png", width = 8, height = 6)</td>
-  </tr>
-</table>
+![image alt text](images/1/imagea.png)
 
 
 Il est préférable de suivre la structure suivante lors du développement de vos propres scripts :
@@ -777,7 +760,7 @@ Nous utiliserons [R Markdown](https://rmarkdown.rstudio.com/lesson-1.html) pour 
 </table>
 
 
-Si vous ouvrez un nouveau fichier RMarkdown à partir d'un modèle, vous verrez un document exemple contenant plusieurs blocs de code. Pour créer un rapport HTML ou PDF à partir d'un document R Markdown (Rmd), vous devez le compiler. La compilation d'un document s'appelle *knit* ("tricoter") sur RStudio. 
+Si vous ouvrez un nouveau fichier RMarkdown à partir d'un modèle, vous verrez un document exemple contenant plusieurs blocs de code. Pour créer un rapport HTML ou PDF à partir d'un document R Markdown (Rmd), vous devez le compiler. La compilation d'un document s'appelle *knit* ("tricoter") sur RStudio.
 
 Il y a un bouton qui ressemble à une pelote de laine avec des aiguilles ![image alt text](image_1.png)  sur lequel vous devez cliquer pour compiler votre fichier dans un rapport.
 
@@ -884,4 +867,3 @@ Ne le chargez pas en utilisant un chemin absolu :
 ## 1.7 Exercices
 
 Téléchargez la première série d'exercices et placez-la dans le répertoire de projet que vous avez créé précédemment. Ne regardez les réponses qu'après avoir essayé toutes les questions.
-
