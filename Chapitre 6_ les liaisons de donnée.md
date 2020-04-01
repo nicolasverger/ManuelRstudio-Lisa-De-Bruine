@@ -140,7 +140,7 @@ La fonction *right_join* conserve toutes les données de la deuxième table (à 
 </table>
 
 
-![image alt text](images/3/image_3.png)
+![image alt text](images/6/image_3.png)
 
 <table>
   <tr>
@@ -161,7 +161,7 @@ La fonction *inner_join* produira une table jointe constituée de toutes les lig
 </table>
 
 
-![image alt text](images/3/image_4.png)
+![image alt text](images/6/image_4.png)
 
 ### 6.4.4 Jointure complète: full_join()
 
@@ -174,7 +174,7 @@ La fonction *full_join* vous permet de rejoindre les lignes des deux tables tout
 </table>
 
 
-![image alt text](images/3/image_5.png)
+![image alt text](images/6/image_5.png)
 
 ## 6.5 Jointures filtrantes
 
@@ -191,7 +191,7 @@ La fonction *semi_join* sélectionne toutes les lignes de la table de gauche qui
 </table>
 
 
-![image alt text](images/3/image_6.png)
+![image alt text](images/6/image_6.png)
 
 <table>
   <tr>
@@ -209,7 +209,7 @@ L’ordre dans lequel on introduit les tables dans la fonction *semi_join* impor
 </table>
 
 
-![image alt text](images/3/image_7.png)
+![image alt text](images/6/image_7.png)
 
 ### 6.5.2 Anti-jointure : anti_join()
 
@@ -222,7 +222,7 @@ La fonction *anti_join* sélectionne toutes les lignes de la table de gauche qui
 </table>
 
 
-![image alt text](images/3/image_8.png)
+![image alt text](images/6/image_8.png)
 
 L’ordre dans lequel on introduit les tables dans la fonction *anti_join* importe.
 
@@ -233,7 +233,7 @@ L’ordre dans lequel on introduit les tables dans la fonction *anti_join* impor
 </table>
 
 
-![image alt text](images/3/image_9.png)
+![image alt text](images/6/image_9.png)
 
 ## 6.6 Les fonctions de concaténations
 
@@ -274,7 +274,7 @@ bind_rows(subject, new_subjects)</td>
 </table>
 
 
-![image alt text](images/3/image_10.png)
+![image alt text](images/6/image_10.png)
 
 Si vos tables contiennent exactement les mêmes colonnes, vous pouvez utiliser la fonction *union()* (voir ci-dessous) pour éviter les duplications de lignes.
 
@@ -312,7 +312,7 @@ dplyr::intersect(subject, new_subjects)</td>
 </table>
 
 
-![image alt text](images/3/image_11.png)
+![image alt text](images/6/image_11.png)
 
 ### 6.7.2 la fonction *union()*
 
@@ -325,7 +325,7 @@ La fonction *union()* fusionne toutes les lignes des deux tables, en supprimant 
 </table>
 
 
-![image alt text](images/3/image_12.png)
+![image alt text](images/6/image_12.png)
 
 ### 6.7.3 la fonction *setdiff()*
 
@@ -338,7 +338,7 @@ La fonction *setdiff* sélectionne les lignes qui ne sont présentes que dans la
 </table>
 
 
-![image alt text](images/3/image_13.png)
+![image alt text](images/6/image_13.png)
 
 ** **L’ordre dans lequel on introduit les tables dans la fonction *setdiff* importe.
 
@@ -349,7 +349,7 @@ La fonction *setdiff* sélectionne les lignes qui ne sont présentes que dans la
 </table>
 
 
-![image alt text](images/3/image_14.png)
+![image alt text](images/6/image_14.png)
 
 ##  6.8 Exercices
 
