@@ -33,7 +33,7 @@ Chapitre 1 : Pour commencer
 * [Le guide de référence de RMarkdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) (EN)
 
 # 1.3 Qu’est-ce que R?
-![image alt text](images/1/image1)
+![image alt text](images/1/image1.png)
 R est un environnement de programmation pour le traitement et l'analyse statistique de données. R est de plus en plus utilisé pour la recherche en psychologie afin de promouvoir et faciliter une science ouverte et reproductible. L’objectif est de pouvoir documenter et reproduire toutes les étapes entre les données brutes et les résultats. R vous permet d'écrire des scripts qui combinent des fichiers de données, nettoient les données et exécutent des analyses. Il y a beaucoup d'autres façons de le faire, comme écrire des fichiers de syntaxe SPSS, mais R est un outil utile dans la mesure où il est libre, open source, et couramment utilisé dans la recherche en psychologie et dans les autres sciences.
 
 <table>
@@ -48,7 +48,7 @@ R est un environnement de programmation pour le traitement et l'analyse statisti
 
 Si vous ouvrez l'application appelée R, vous verrez une fenêtre "R Console" qui ressemble à ceci.
 
-![image alt text](images/1/image2)
+![image alt text](images/1/image2.png)
 <table>
   <tr>
     <td></td>
@@ -72,7 +72,7 @@ Lancez  (RStudio.app), pas  (R.app).</td>
 
 ### 1.3.2 RStudio
 
-![image alt text](images/1/image3)
+![image alt text](images/1/image3.png)
 
 <table>
   <tr>
@@ -96,7 +96,7 @@ Lorsque vous faites les choses de façon reproductible, les autres peuvent compr
 
 Il y a deux modifications que vous devriez apporter à votre installation RStudio pour maximiser la reproductibilité. Allez dans le menu **Préférences/Paramètres**, et décochez la case **Restaurer .RData** dans l'espace de travail au démarrage. Si vous gardez les choses dans votre espace de travail, les choses deviendront désordonnées et des choses inattendues se produiront. Vous devriez toujours commencer par un espace de travail vierge. Cela signifie également que vous ne voulez jamais enregistrer votre espace de travail lorsque vous quittez RStudio, alors définissez ce paramètre sur **Jamais**. La seule chose que vous voulez sauver, ce sont vos scripts.
 
-![image alt text](images/1/image4)
+![image alt text](images/1/image4.png)
 
 <table>
   <tr>
@@ -710,7 +710,7 @@ Choisissez New Project... sous le menu File pour créer un nouveau projet appel�
 
 Voici à quoi ressemble un script R. Ne vous inquiétez pas des détails pour l'instant.
 
-![image alt text](images/1/imagea)
+![image alt text](images/1/imagea.png)
 
 
 Il est préférable de suivre la structure suivante lors du développement de vos propres scripts :
