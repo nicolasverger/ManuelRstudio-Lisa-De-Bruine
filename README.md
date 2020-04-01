@@ -1,7 +1,7 @@
 # Wiki
 
 
-# liste des chapitres traduits:
+# Liste des chapitres traduits:
 
 * [Informations Générales](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/0.%20Informations%20G%C3%A9n%C3%A9rales.md)
 
