@@ -1,7 +1,7 @@
 # Wiki
 
 
-# Ci-dessous la liste des chapitres traduits:
+# Liste des chapitres traduits:
 
 * [Informations Générales](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/0.%20Informations%20G%C3%A9n%C3%A9rales.md)
 
@@ -15,9 +15,9 @@
 
 * [Chapitre 4 - Données tidy](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%204%20_%20Donn%C3%A9es%20tidy.md)
 
-* [Chapitre 5 _ Mise en forme des données](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%205%20_%20Mise%20en%20forme%20des%20donn%C3%A9es.md)
+* [Chapitre 5 - Mise en forme des données](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%205%20_%20Mise%20en%20forme%20des%20donn%C3%A9es.md)
 
-* [Chapitre 6_ les liaisons de donnée](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%206_%20les%20liaisons%20de%20donn%C3%A9e.md)
+* [Chapitre 6_- les liaisons de donnée](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%206_%20les%20liaisons%20de%20donn%C3%A9e.md)
 
 * [Chapitre 8 - probabilités et simulations](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%208_%20probabilit%C3%A9s%20et%20simulations.md)
 
