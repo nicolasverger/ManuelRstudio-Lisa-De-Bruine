@@ -1,6 +1,6 @@
 Chapitre 10 : Flux de travail reproductible
 
-*Traduit par Mae Braud. **Relu et corrigé par...*
+*Traduit par Mae Braud.*
 
 10.1 Objectifs d’apprentissage
 
