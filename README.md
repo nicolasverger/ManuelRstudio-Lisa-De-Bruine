@@ -5,9 +5,9 @@
 
 * [Informations Générales](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/0.%20Informations%20G%C3%A9n%C3%A9rales.md)
 
-* [Annexe A - Installer R.md](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Annexe%20A%20-%20Installer%20R.md)
+* [Annexe A - Installer R](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Annexe%20A%20-%20Installer%20R.md)
 
-* [Chapitre 1 - Pour commencer.md](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%201%20_%20Pour%20commencer.md)
+* [Chapitre 1 - Pour commencer](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%201%20_%20Pour%20commencer.md)
 
 * [Chapitre 2 - Manipulation des données](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%202%20_%20Manipulation%20des%20donn%C3%A9es.md)
 
