@@ -1,5 +1,3 @@
-# Wiki
-
 
 # Liste des chapitres traduits:
 
