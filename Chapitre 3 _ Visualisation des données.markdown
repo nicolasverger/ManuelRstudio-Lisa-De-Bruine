@@ -1,8 +1,7 @@
-Chapitre 3 : Visualisation des données![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image1.png)
+Chapitre 3 : Visualisation des données!
+[](./Chapitre%203%20_%20Visualisation%20des%20données/media/image1.png)
                                            
-*Traduit par Mae Braud. Relu et corrigé par Marie Delacre* [](./Chapitre%203%20_%20Visualisation%20des%20données/media/image1.png)
-
-[alt image](./Chapitre%203%20_%20Visualisation%20des%20données/media/image1.png)
+*Traduit par Mae Braud. Relu et corrigé par Marie Delacre* 
 
 Pour savoir si vous avez besoin de réviser ce chapitre, faites le **quiz** (voir 3.11).
 
