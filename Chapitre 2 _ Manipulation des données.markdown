@@ -47,7 +47,8 @@ Il existe aussi un type spécifique de données appelé **facteur**. Ce type de 
 
 Les chaînes de caractères peuvent inclure à peu près n’importe quoi, y compris de guillemets. Cependant, si vous voulez inclure un guillemet il faut l’”échapper” en utilisant l’antislash :
 
-![](./Chapitre%202%20_%20Manipulation%20des%20données/media/image2.png)
+![](./Chapitre%202%20_%20Manipulation%20des%20données/media/image2.png)
+      Chapitre%202%20_%20Manipulation%20des%20données/media/
 
 Notez que si vous entrez juste un nombre simple comme **10** par exemple, il est stocké en tant que donnée “double”, même s’il ne comporte pas de décimale. Si vous voulez que ce nombre soit de type “integer” il faut lui ajouter **L** en suffixe (10L).
 
