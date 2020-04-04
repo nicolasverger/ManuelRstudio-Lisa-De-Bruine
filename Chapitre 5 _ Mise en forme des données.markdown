@@ -1,4 +1,4 @@
-*Traduit par Zoé Lackner*
+*Traduit par Zoé Lackner*![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image1.png)
 
 # 5.1 Objectifs d’apprentissage
 
@@ -247,7 +247,7 @@ Sélectionne les colonnes avec un nom qui correspond à la structure prefix.
 
 |                                                                               |                                                                                                                                                                                                   |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image2.png) | Vous pouvez utiliser width pour paramétrer le nombre de chiffres avant le zéro. Par exemple, num\_range(‘var\_’, 8:10, width=2) permet de sélectionner les colonnes var\_08, var\_09, et var\_10. |
+| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image2.png) | Vous pouvez utiliser width pour paramétrer le nombre de chiffres avant le zéro. Par exemple, num\_range(‘var\_’, 8:10, width=2) permet de sélectionner les colonnes var\_08, var\_09, et var\_10. |
 
 ## 5.5.2 filter()
 
@@ -277,7 +277,7 @@ Ce code permet de sélectionner toutes les lignes dont le user\_id est de 1.
 
 |                                                                               |                                                                                                                                                                                                              |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image3.png) | N’oubliez pas d’utiliser == et non = pour vérifier si deux choses sont équivalentes. Un seul = permet d’assigner la valeur de droite à la variable de gauche et permet (en général) de l’évaluer comme TRUE. |
+| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image3.png) | N’oubliez pas d’utiliser == et non = pour vérifier si deux choses sont équivalentes. Un seul = permet d’assigner la valeur de droite à la variable de gauche et permet (en général) de l’évaluer comme TRUE. |
 
 Vous pouvez sélectionner plusieurs critères en les séparant par des virgules.
 
@@ -458,7 +458,7 @@ Pour partir de variables déjà présentes dans le jeux de données, il faut se 
 
 |                                                                               |                                                                                                                                                                 |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image3.png) | Vous pouvez écraser une colonne en donnant à une nouvelle colonne le même nom que celle-ci. Attention, vous ne pourrez alors plus accéder à l’ancienne colonne. |
+| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image3.png) | Vous pouvez écraser une colonne en donnant à une nouvelle colonne le même nom que celle-ci. Attention, vous ne pourrez alors plus accéder à l’ancienne colonne. |
 
 ## 
 
@@ -593,7 +593,7 @@ Beaucoup des actions que nous avons réalisées plus tôt seraient facilitées a
 
 |                                                                               |                                                                                                                                                                                                                                                        |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image3.png) | C’est un bon exercice d’utiliser ungroup() après avoir utilisé group\_by et summarise. Oublier de rompre les groupes dans le jeux de données n’affectera pas les traitements ultérieurs, cependant, cela pourrait beaucoup perturber d’autres actions. |
+| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image3.png) | C’est un bon exercice d’utiliser ungroup() après avoir utilisé group\_by et summarise. Oublier de rompre les groupes dans le jeux de données n’affectera pas les traitements ultérieurs, cependant, cela pourrait beaucoup perturber d’autres actions. |
 
 Ainsi, nous pouvons répartir les 3 domaines : calculer le score total, supprimer les lignes où le total est absent (NA) et calculer la moyenne par an.
 
@@ -684,7 +684,7 @@ Vous pouvez utiliser les exemples de codes qui suivent et la page d’aide pour 
 
 |                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image4.png)La plupart du monde s'emmêle les pinceaux un jour ou l’autre avec rename() et essaie de mettre le nom original de la colonne à gauche et le nouveau nom à droite. Vous pouvez essayer pour voir le message d’erreur qui apparaît à cette occasion. |
+| ![](./Chapitre%205%20_%20Mise%20en%20forme%20des%20données/media/image4.png)La plupart du monde s'emmêle les pinceaux un jour ou l’autre avec rename() et essaie de mettre le nom original de la colonne à gauche et le nouveau nom à droite. Vous pouvez essayer pour voir le message d’erreur qui apparaît à cette occasion. |
 
 ### 
 
