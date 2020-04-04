@@ -130,7 +130,8 @@ Les variables **continues** sont des caractéristiques que vous pouvez mesurer, 
 
 Les variables **discrètes** (ou catégorielles) sont des choses que vous pouvez compter, comme le nombre d’animaux de compagnie que vous avez. Les variables catégorielles peuvent être **nominales**, lorsque les catégories n’ont pas vraiment d’ordre, comme pour les catégories chats, chiens et furets (bien que les furets soient évidemment les meilleurs). Elles peuvent être **ordinales**, lorsque les catégories peuvent être classées dans un ordre naturel, mais que la distance entre deux catégories consécutives n’est pas tout à fait équivalente partout, comme les points sur une échelle de Likert.
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
+
 
 <table>
 <tbody>
@@ -164,7 +165,7 @@ Le code ci-dessous permet de créer des tableaux de données avec différents ty
 
   - overplot contient deux variables continues corrélées et 10000 observations
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
 
 <table>
 <tbody>
@@ -223,7 +224,7 @@ Les diagrammes à barres conviennent à une variable catégorielle pour laquelle
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image3.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image3.png)
 
 Figure 3.1 : Diagramme à barres
 
@@ -240,7 +241,7 @@ Les courbes de densité (ou de distribution) conviennent à une variable continu
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image4.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image4.png)
 
 Figure 3.2 : Courbe de densité
 
@@ -255,11 +256,11 @@ Vous pouvez diviser une variable en sous-ensembles et les représenter en assign
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image5.png)
+![](/Chapitre%203%20_%20Visualisation%20des%20données/media/image5.png)
 
 Figure 3.3 : Courbe de densité avec plusieurs groupes
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
+![](/Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
 
 <table>
 <tbody>
@@ -284,11 +285,11 @@ Si vous ne souhaitez pas une distribution lissée, essayez geom\_freqpoly().
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image6.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image6.png)
 
 Figure 3.4 : Polygone des effectifs
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
 
 <table>
 <tbody>
@@ -313,11 +314,11 @@ Les histogrammes conviennent également pour représenter une variable continue,
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image7.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image7.png)
 
 Figure 3.5 : Histogramme
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
 
 <table>
 <tbody>
@@ -340,11 +341,11 @@ Si vous affichez des histogrammes avec plusieurs groupes, vous voudrez probablem
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image9.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image9.png)
 
 Figure 3.6 : Histogramme avec plusieurs groupes
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
 
 <table>
 <tbody>
@@ -380,11 +381,11 @@ Pour faire des diagrammes en colonnes avec barres d’erreur, vous devez d’abo
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image10.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image10.png)
 
 Figure 3.7 : Diagramme en colonnes
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
 
 <table>
 <tbody>
@@ -409,7 +410,7 @@ Les boîtes à moustaches sont très bien pour représenter la distribution de v
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image11.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image11.png)
 
 Figure 3.8 : Boîte à moustache
 
@@ -430,11 +431,11 @@ Les diagrammes en violon ressemblent en quelque sorte à deux courbes de densit�
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image12.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image12.png)
 
 Figure 3.9 : Diagramme en violon
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image2.png)
 
 |                                                                |
 | -------------------------------------------------------------- |
@@ -453,7 +454,7 @@ Les nuages de points sont une bonne manière de représenter la relation entre d
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image13.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image13.png)
 
 Figure 3.10 : Nuage de points à l’aide de geom\_point()
 
@@ -470,7 +471,7 @@ Nous cherchons souvent à représenter cette relation en une seule droite.
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image14.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image14.png)
 
 Figure 3.11 : Droite de régression linéaire à l’aide de geom\_smooth()
 
@@ -492,7 +493,7 @@ Il y a différentes façons de définir des titres et des étiquettes d’axes p
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image15.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image15.png)
 
 Figure 3.12 : Définir des étiquettes personnalisées à l’aide de ggtitle(), xlab() et ylab()
 
@@ -508,7 +509,7 @@ Figure 3.12 : Définir des étiquettes personnalisées à l’aide de ggtitle(),
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image16.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image16.png)
 
 Figure 3.13 : Définir des étiquettes personnalisées à l’aide de labs()
 
@@ -527,7 +528,7 @@ Vous pouvez définir des valeurs personnalisées pour les bordures et le remplis
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image17.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image17.png)
 
 Figure 3.14 : Définir des couleurs personnalisées
 
@@ -571,11 +572,11 @@ Pour démontrer l’utilisation de facet\_grid() pour les plans factoriels, nous
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image18.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image18.png)
 
 Figure 3.15 : Diagramme en violon avec boîte à moustache interne
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
 
 <table>
 <tbody>
@@ -611,7 +612,7 @@ Vous apprendrez comment écrire vos propres fonctions dans la leçon [Itération
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image19.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image19.png)
 
 Figure 3.16 : Point-range plot à l’aide de stat\_summary()
 
@@ -640,7 +641,7 @@ Si vous n’avez pas beaucoup de points de données, il est bien de les représe
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image20.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image20.png)
 
 Figure 3.17 : Violin-jitter plot
 
@@ -658,7 +659,7 @@ Si votre graphique n’est pas trop complexe, il est aussi bien de montrer les d
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image21.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image21.png)
 
 Figure 3.18 : Nuage de points avec droite de régression
 
@@ -708,7 +709,7 @@ Pour facilement créer une grille avec différents graphiques, vous pouvez utili
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image22.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image22.png)
 
 Figure 3.19 : Grille de graphiques à l’aide de cowplot
 
@@ -728,7 +729,7 @@ Vous pouvez gérer la superposition d’observations (cas très commun lorsque v
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image23.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image23.png)
 
 Figure 3.20 : Gérer la superposition d’observations à l’aide de la transparence
 
@@ -746,7 +747,7 @@ Ou bien alors, vous pouvez également définir la taille des points comme étant
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image24.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image24.png)
 
 Figure 3.21 : Gérer la répétition d’observations à l’aide de geom\_count()
 
@@ -765,11 +766,11 @@ Alternativement, vous pouvez transformer vos données en créant une colonne d�
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image25.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image25.png)
 
 Figure 3.22 : Gérer la répétition d’observations à l’aide de la couleur
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
 
 <table>
 <tbody>
@@ -795,7 +796,7 @@ Même si les variables sont continues, si vous avez beaucoup de données alors l
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image26.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image26.png)
 
 Figure 3.23 : Sur-représentation de données
 
@@ -813,7 +814,7 @@ Utilisez geom\_density2d() pour créer une contour map.
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image27.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image27.png)
 
 Figure 3.24 : Contour map à l’aide de geom\_density2d()
 
@@ -830,7 +831,7 @@ Pour créer un heatmap-style density plot vous pouvez utiliser stat\_density\_2d
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image28.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image28.png)
 
 Figure 3.25 : Heatmap-density plot
 
@@ -848,7 +849,7 @@ Utilisez geom\_bin2d() pour créer une heatmap rectangulaire basée sur le nombr
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image29.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image29.png)
 
 Figure 3.26 : Heatmap basée sur le nombre de bin
 
@@ -866,7 +867,7 @@ Utilisez geomhex() pour créer une heatmap hexagonale basée sur le nombre de bi
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image30.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image30.png)
 
 Figure 3.27 : Heatmap hexagonale basée sur le nombre de bin
 
@@ -910,11 +911,11 @@ Une fois que vous avez une matrice de corrélation dans le bon format (format �
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image31.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image31.png)
 
 Figure 3.28 : Heatmap à l’aide de geom\_tile()
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
 
 <table>
 <tbody>
@@ -940,11 +941,11 @@ Pour créer des graphiques interactifs, vous pouvez utiliser le package plotly. 
 </tbody>
 </table>
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image32.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image32.png)
 
 Figure 3.29 : Graphique interactif avec plotly
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image8.png)
 
 <table>
 <tbody>
@@ -962,7 +963,7 @@ Figure 3.29 : Graphique interactif avec plotly
 
 1.  Générez un graphique comme celui ci-dessous à partir du jeu de données iris. Veillez à bien inclure des étiquettes d’axes personnalisés.
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image33.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image33.png)
 
 \[Solution\]
 
@@ -1036,7 +1037,7 @@ Figure 3.29 : Graphique interactif avec plotly
 
 4.  Générez un graphique comme celui ci-dessous à l’aide du jeu de données ChickWeight.
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image34.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image34.png)
 
 \[Solution\]
 
@@ -1052,7 +1053,7 @@ Figure 3.29 : Graphique interactif avec plotly
 
 5.  Générez un graphique comme celui ci-dessous à l’aide du jeu de données iris.
 
-![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image35.png)
+![](./Chapitre%203%20_%20Visualisation%20des%20données/media/image35.png)
 
 \[Solution\]
 
