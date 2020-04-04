@@ -54,7 +54,8 @@ Notez que si vous entrez juste un nombre simple comme **10** par exemple, il est
 
 Si vous souhaitez connaître le type de donnée d’un élément utilisez la fonction “**class**”.
 
-![](./Chapitre%202%20_%20Manipulation%20des%20données/image3.png)
+![](./Chapitre%202%20_%20Manipulation%20des%20données/media/image3.png)
+      Chapitre%202%20_%20Manipulation%20des%20données/media/
 
 2.4 Les types de conteneurs de base
 
@@ -62,8 +63,8 @@ Si vous souhaitez connaître le type de donnée d’un élément utilisez la fon
 
 Les vecteurs font partie des structures de données clefs dans R. Dans R, un vecteur est comme un vecteur en mathématiques : un ensemble d'éléments ordonnés. Tous les éléments du vecteur doivent être du même type de données (numeric, character, factor). Vous pouvez créer un vecteur en insérant les éléments dans **c(...)** comme montré ci-dessous.
 
-![](./Chapitre%202%20_%20Manipulation%20des%20données/media/image4.png)
-
+![](./Chapitre%202%20_%20Manipulation%20des%20données/media/image4.png)
+      
 **2.4.1.1 Sélectionner des valeurs à partir d’un vecteur**
 
 Souvenez-vous de la dernière leçon. Vous pouvez créer une vecteur en utilisant l’opérateur “**c()**” (il s’agit de la manière la plus simple de le faire, mais vous pouvez aussi utiliser la fonction “**vecteur()**”). Si on souhaitait choisir des valeurs spécifiques au sein d’un vecteur à partir de leur position, on pourrait construire un vecteur de nombres de la manière suivante :
