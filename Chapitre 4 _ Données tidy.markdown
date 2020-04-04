@@ -55,11 +55,11 @@ Pour savoir si vous avez besoin de réviser ce chapitre, faites le **quiz** (voi
 
 # 4.4 Trois règles pour des données *tidy*
 
-  - # Chaque [variable](https://psyteachr.github.io/glossary/v#variable) doit avoir sa propre colonne
+  - Chaque [variable](https://psyteachr.github.io/glossary/v#variable) doit avoir sa propre colonne
 
-  - # Chaque [observation](https://psyteachr.github.io/glossary/o#observation) doit avoir sa propre ligne
+  - Chaque [observation](https://psyteachr.github.io/glossary/o#observation) doit avoir sa propre ligne
 
-  - # Chaque [valeur](https://psyteachr.github.io/glossary/v#value) doit avoir sa propre cellule
+  - Chaque [valeur](https://psyteachr.github.io/glossary/v#value) doit avoir sa propre cellule
 
 # Le tableau ci-dessous contient trois observations par ligne. La colonne total\_meanRT contient deux valeurs.
 
