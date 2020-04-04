@@ -2,7 +2,7 @@
 
 *Traduit par Marie Delacre.*
 
-## 6.1 Objectifs d’apprentissage![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image1.png)
+## 6.1 Objectifs d’apprentissage![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image1.png)
 
 ### 6.1.1 Niveau débutant
 
@@ -83,7 +83,7 @@ Dans la table exp, on trouve l’identifiant (id) de sujets ainsi que le score q
 </tbody>
 </table>
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image2.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image2.png)
 
 ## 6.4 Les jointures
 
@@ -99,7 +99,7 @@ Toutes les fonctions de jointures ont la syntaxe de base suivante :
 > 
 > · {\#join-suffix} suffix = si des colonnes ont le même nom dans les deux tables mais que vous ne les utilisez pas pour la jointure, un suffixe sera ajouté à leur nom dans la table finale, de sorte à les rendre non ambigües. Par défaut, les suffixes ajoutés sont “.x” et “.y”, mais vous pouvez les remplacer par quelque chose de plus pertinent.
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image3.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image3.png)
 
 <table>
 <tbody>
@@ -112,7 +112,7 @@ Toutes les fonctions de jointures ont la syntaxe de base suivante :
 
 ### 6.4.1 Jointure à gauche: left\_join()
 
-**Figure 6.1: Jointure à gauche**![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image4.png)
+**Figure 6.1: Jointure à gauche**![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image4.png)
 
 La fonction *left\_join* conserve toutes les données de la première table (à gauche) auxquelles elle adjoint les données provenant de la deuxième table (à droite). S’il y a plusieurs lignes de la table de droite en correspondance avec une ligne de la table de gauche, cette dernière sera dupliquée dans la table jointe (voir les sujets 4 et 5).
 
@@ -120,7 +120,7 @@ La fonction *left\_join* conserve toutes les données de la première table (à 
 | -------------------------------------- |
 | **left\_join**(subject, exp,by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image5.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image5.png)
 
 Dans le code ci-dessous, nous avons inversé l’ordre des tables dans la fonction, de sorte que la table jointe résultante soit l’ensemble des lignes de la table exp auxquelles sont adjointes les informations provenant de la table subject.![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image6.png)
 
@@ -128,7 +128,7 @@ Dans le code ci-dessous, nous avons inversé l’ordre des tables dans la foncti
 | -------------------------------------- |
 | **left\_join**(exp, subject,by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image7.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image7.png)
 
 ### 6.4.2 Jointure à droite: right\_join()![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image8.png)
 
@@ -138,9 +138,9 @@ La fonction *right\_join* conserve toutes les données de la deuxième table (à
 | --------------------------------------- |
 | **right\_join**(subject, exp,by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image9.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image9.png)
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image10.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image10.png)
 
 <table>
 <tbody>
@@ -151,7 +151,7 @@ La fonction *right\_join* conserve toutes les données de la deuxième table (à
 </tbody>
 </table>
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image11.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image11.png)
 
 ### 6.4.3 Jointure restreinte: inner\_join()
 
@@ -161,9 +161,9 @@ La fonction *inner\_join* produira une table jointe constituée de toutes les li
 | --------------------------------------- |
 | **inner\_join**(subject, exp,by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image12.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image12.png)
 
-### 6.4.4 Jointure complète: full\_join()![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image13.png)
+### 6.4.4 Jointure complète: full\_join()![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image13.png)
 
 La fonction *full\_join* vous permet de rejoindre les lignes des deux tables tout en conservant l’ensemble de l’information des deux tables. Si une ligne n’est pas présente dans les deux tables simultanément, les valeurs « NA » seront introduites dans les colonnes correspondant à la table dans laquelle la ligne n’est pas présente.
 
@@ -171,11 +171,11 @@ La fonction *full\_join* vous permet de rejoindre les lignes des deux tables tou
 | -------------------------------------- |
 | **full\_join**(subject, exp,by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image14.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image14.png)
 
 ## 6.5 Jointures filtrantes
 
-### 6.5.1 Semi-jointure : semi\_join()![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image15.png)
+### 6.5.1 Semi-jointure : semi\_join()![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image15.png)
 
 **Figure 6.6: semi jointure**
 
@@ -185,9 +185,9 @@ La fonction *semi\_join* sélectionne toutes les lignes de la table de gauche qu
 | --------------------------------------- |
 | **semi\_join**(subject, exp, by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image16.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image16.png)
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image10.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image10.png)
 
 |                                                                                                                                                                                        |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -199,7 +199,7 @@ L’ordre dans lequel on introduit les tables dans la fonction *semi\_join* impo
 | --------------------------------------- |
 | **semi\_join**(exp, subject, by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image17.png)![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image18.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image17.png)![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image18.png)
 
 ### 6.5.2 Anti-jointure : anti\_join()![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image19.png)
 
@@ -209,9 +209,9 @@ La fonction *anti\_join* sélectionne toutes les lignes de la table de gauche qu
 | --------------------------------------- |
 | **anti\_join**(subject, exp, by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image20.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image20.png)
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image21.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image21.png)
 
 L’ordre dans lequel on introduit les tables dans la fonction *anti\_join* importe.
 
@@ -219,7 +219,7 @@ L’ordre dans lequel on introduit les tables dans la fonction *anti\_join* impo
 | --------------------------------------- |
 | **anti\_join**(exp, subject, by = "id") |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image22.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image22.png)
 
 ## 6.6 Les fonctions de concaténations
 
@@ -262,7 +262,7 @@ Si une ligne est présente dans les deux tables (comme la ligne qui se rapporte 
 </tbody>
 </table>
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image23.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image23.png)
 
 Si vos tables contiennent exactement les mêmes colonnes, vous pouvez utiliser la fonction *union()* (voir ci-dessous) pour éviter les duplications de lignes.
 
@@ -300,7 +300,7 @@ La fonction *intersect()* sélectionne toutes les lignes qui sont en parfaite co
 </tbody>
 </table>
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image24.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image24.png)
 
 ### 6.7.2 la fonction *union()*
 
@@ -310,7 +310,7 @@ La fonction *union()* fusionne toutes les lignes des deux tables, en supprimant 
 | ---------------------------------------- |
 | dplyr::**union**(subject, new\_subjects) |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image25.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image25.png)
 
 ### 6.7.3 la fonction *setdiff()*
 
@@ -320,7 +320,7 @@ La fonction *setdiff* sélectionne les lignes qui ne sont présentes que dans la
 | ----------------------------------- |
 | **setdiff**(subject, new\_subjects) |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image26.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image26.png)
 
 L’ordre dans lequel on introduit les tables dans la fonction *setdiff* importe.
 
@@ -328,7 +328,7 @@ L’ordre dans lequel on introduit les tables dans la fonction *setdiff* importe
 | ----------------------------------- |
 | **setdiff**(new\_subjects, subject) |
 
-![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image27.png)
+![](./Chapitre%206_%20les%20liaisons%20de%20donnée/media/image27.png)
 
 ##  6.8 Exercices
 
