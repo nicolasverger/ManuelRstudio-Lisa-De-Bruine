@@ -2,7 +2,7 @@ Chapitre 2 : Manipulation des données
 
 *Traduit par Brice Beffara-Bret.*
 
-![](./Chapitre%202%20_%20Manipulation%20des%20données/media/image1.png)
+![](./Chapitre%202%20_%20Manipulation%20des%20données/media/image1.png) 
 
 2.1 Objectifs d’apprentissage
 
