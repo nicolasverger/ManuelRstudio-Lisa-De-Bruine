@@ -54,7 +54,7 @@ Notez que si vous entrez juste un nombre simple comme **10** par exemple, il est
 
 Si vous souhaitez connaître le type de donnée d’un élément utilisez la fonction “**class**”.
 
-![](./Chapitre%202%20_%20Manipulation%20des%20données/media/image3.png)
+![](./Chapitre%202%20_%20Manipulation%20des%20données/image3.png)
 
 2.4 Les types de conteneurs de base
 
