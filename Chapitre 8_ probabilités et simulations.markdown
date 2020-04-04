@@ -1,8 +1,8 @@
 Chapitre 8 : Probabilités et simulations
 
-*Traduit par Marie Delacre. Relu et corrigé par …*
+*Traduit par Marie Delacre.*
 
-# 8.1 Objectifs d’apprentissage![](./Chapitre%208_%20probabilités%20et%20simulations/media/image1.jpg)
+# 8.1 Objectifs d’apprentissage![](/Chapitre%208_%20probabilités%20et%20simulations/media/image1.jpg)
 
 8.1.1 Niveau débutant
 
@@ -87,7 +87,7 @@ Simuler des données est un moyen très puissant de tester votre compréhension 
 
 La distribution uniforme est la distribution la plus simple. Il s’agit d’une distribution pour laquelle toutes les valeurs dans un intervalle de valeur ont exactement la même probabilité d’être sélectionnées.
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
 
 |                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------- |
@@ -109,7 +109,7 @@ Utilisez la fonction “runif()” pour extraire un échantillon d’une distrib
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image3.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image3.png)
 
 #### **8.3.1.2 Échantillon d’une distribution discrète**
 
@@ -131,7 +131,7 @@ Vous pouvez utiliser la fonction *sample()* pour simuler des événements tels q
 </tbody>
 </table>
 
-![Distribution of dice rolls.](./Chapitre%208_%20probabilités%20et%20simulations/media/image4.png)
+![Distribution of dice rolls.](./Chapitre%208_%20probabilités%20et%20simulations/media/image4.png)
 
 Figure 8.1: Distribution de lancers de dé
 
@@ -146,7 +146,7 @@ Vous pouvez aussi utiliser la fonction *sample()* pour extraire un échantillon 
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image5.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image5.png)
 
 Dans la mesure où les furets sont des animaux beaucoup moins répandus que les chats et les chiens, notre échantillon n’est pas très réaliste. Pour le rendre plus réaliste, vous pouvez définir les probabilités de chaque élément de la liste avec l'argument *prob*.
 
@@ -160,7 +160,7 @@ Dans la mesure où les furets sont des animaux beaucoup moins répandus que les 
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image6.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image6.png)
 
 ### 
 
@@ -247,9 +247,9 @@ Vous devriez toujours vérifier vos données générées aléatoirement, de sort
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image7.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image7.png)
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
 
 <table>
 <tbody>
@@ -318,7 +318,7 @@ L’output ci-dessous informe, pour chaque test, du nombre de succès obtenu (nu
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
 
 <table>
 <tbody>
@@ -342,13 +342,13 @@ L'**effet** est une mesure de vos données. Il dépendra du type de données que
 
 La **taille d'effet** fait référence à la différence entre l'effet dans vos données et l'effet nul (généralement, une valeur du hasard).
 
-{\#p-value} La ***p*-valeur** d’un test est la probabilité d’observer un effet au moins aussi extrême que celui que vous obtenez avec vos données, si le vrai effet correspond à l’hypothèse que l’on teste (càd, l’effet nul). Dès lors, si vous avez utilisé un test binomial pour tester une probabilité du hasard de 1/6 (par exemple, la probabilité d’obtenir 1 en lançant un dé à 6 faces), une p-valeur de 0.17 signifie que vous pourriez vous attendre à observer un effet au moins aussi extrême que celui observé dans vos données dans 17% des cas, par pur effet du hasard.![](./Chapitre%208_%20probabilités%20et%20simulations/media/image9.jpg)
+{\#p-value} La ***p*-valeur** d’un test est la probabilité d’observer un effet au moins aussi extrême que celui que vous obtenez avec vos données, si le vrai effet correspond à l’hypothèse que l’on teste (càd, l’effet nul). Dès lors, si vous avez utilisé un test binomial pour tester une probabilité du hasard de 1/6 (par exemple, la probabilité d’obtenir 1 en lançant un dé à 6 faces), une p-valeur de 0.17 signifie que vous pourriez vous attendre à observer un effet au moins aussi extrême que celui observé dans vos données dans 17% des cas, par pur effet du hasard.![](./Chapitre%208_%20probabilités%20et%20simulations/media/image9.jpg)
 
 {\#alpha} Si vous utilisez un test de signification d’une hypothèse nulle (**NHST**), alors il est nécessaire de décider d’une valeur seuil (**alpha**) pour prendre la décision de rejeter l’hypothèse nulle. Nous dirons des p-valeurs en dessous de la valeur seuil alpha qu’elles sont **significatives**. En psychologie, on utilise généralement un risque alpha de 0.05, mais il existe des bons arguments pour imposer un critère différent dans certaines circonstances.
 
 {\#false-pos}{\#false-neg} La probabilité qu’un test amène à conclure à la présence d’un effet alors qu’en réalité, il n’y a pas d’effet (par exemple, conclure au fait qu’une pièce équilibrée est truquée) est appelée **taux de faux positifs** (ou *taux d’erreur de type I*). L’alpha est le taux de faux positifs que l’on accepte pour un test. La probabilité qu’un test amène à conclure à l’absence d’effet alors qu’en réalité, il y a un effet (par exemple, conclure au fait qu’une pièce truquée est équilibrée) est appelée le **taux de faux négatifs** (ou *taux d’erreur de type II*). Le **beta** est le taux de faux négatifs que l’on accepte pour un test.
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
 
 <table>
 <tbody>
@@ -362,7 +362,7 @@ La **taille d'effet** fait référence à la différence entre l'effet dans vos 
 
 {\#power}{\#sesoi} La **puissance** est égale à 1 moins beta (càd., le **taux de vrais positifs**), et dépend de la taille d’effet, du nombre d’échantillons que nous prenons (n) et de la valeur à laquelle nous fixons alpha. Pour chaque test, si vous spécifiez toutes ces valeurs sauf une, vous pouvez déduire cette dernière. La taille d’effet que vous utilisez dans les calculs de puissance devrait être la plus petite taille d’effet d’intérêt (**SESOI**). Voir Lakens, Scheel, and Isager [(<span class="underline">2018</span>](https://psyteachr.github.io/msc-data-skills/sim.html#ref-TOSTtutorial))([<span class="underline">https://doi.org/10.1177/2515245918770963</span>](https://doi.org/10.1177/2515245918770963)) pour un tutoriel sur les méthodes pour choisir une SESOI.
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
 
 <table>
 <tbody>
@@ -399,7 +399,7 @@ La **taille d'effet** fait référence à la différence entre l'effet dans vos 
 
 {\#conf-int} L’intervalle de confiance (IC) est une fourchette de valeurs autour de l’estimation d’un paramètre (telle que la moyenne) qui a une certaine probabilité (généralement 95%, mais vous pouvez calculer des intervalles de confiance pour n’importe quel pourcentage) de contenir la vraie valeur du paramètre, si vous répétez le processus plusieurs fois.
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
 
 <table>
 <tbody>
@@ -461,7 +461,7 @@ Vous pouvez utiliser la fonction *replicate()* pour exécuter plusieurs fois la 
 | ----------------- |
 | \#\# \[1\] 0.4678 |
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
 
 <table>
 <tbody>
@@ -507,9 +507,9 @@ Nous pouvons simuler un échantillon de taille n issu d’une distribution norma
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image10.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image10.png)
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
 
 <table>
 <tbody>
@@ -587,7 +587,7 @@ Exécutez un test-*t* pour échantillons indépendants en comparant deux ensembl
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image11.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image11.png)
 
 |                                                                                                                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -678,7 +678,7 @@ Exécutez la fonction un certain nombre de fois pour vérifier cela vous donne d
 | ----------------- |
 | \#\# \[1\] 0.2926 |
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
 
 <table>
 <tbody>
@@ -731,9 +731,9 @@ Vous pouvez représenter graphiquement la distribution des p-valeurs.
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image12.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image12.png)
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
 
 |                                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -771,7 +771,7 @@ Ci-dessous, vous trouverez une manière de générer deux variables corrélées 
 | -------------------- |
 | \#\# \[1\] 0.5500246 |
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
 
 <table>
 <tbody>
@@ -850,7 +850,7 @@ Représentez graphiquement vos variables extraites pour vérifier si tout a fonc
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image13.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image13.png)
 
 ### 8.3.5 Normale multivariée
 
@@ -1065,7 +1065,7 @@ Avant toute chose, nous devons un peu mettre les données en forme. Jetez un oei
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image11.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image11.png)
 
 <table>
 <tbody>
@@ -1090,7 +1090,7 @@ Représentez graphiquement votre nouvelle base de données, de sorte à voir de 
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image14.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image14.png)
 
 ### **8.4.3 Obtenir les moyennes et écart-types**
 
@@ -1144,9 +1144,9 @@ Simulez les tailles d’un échantillon aléatoire de 50 hommes et de 50 femmes,
 </tbody>
 </table>
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image15.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image15.png)
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image2.png)
 
 |                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1223,7 +1223,7 @@ Vous pouvez simplement choisir l’alternative “greater” dans la fonction *t
 
 Que faire si nous souhaitons découvrir quelle taille d’échantillon nous donnera une puissance de 80%? Nous pouvons procéder par essais erreur. Nous savons que le nombre devrait être légèrement plus grand que 50. Mais vous pouvez aussi procéder à des recherches plus systématiques en répétant votre calcul de puissance pour une gamme de tailles d’échantillons.
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image8.png)
 
 |                                                                                                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1254,7 +1254,7 @@ Commencez avec un nombre relativement faible de réplications et / ou une grande
 | ------------------------------------------------------------------- |
 | \#\# \`geom\_smooth()\` using method = 'loess' and formula 'y \~ x' |
 
-![](./Chapitre%208_%20probabilités%20et%20simulations/media/image16.png)
+![](./Chapitre%208_%20probabilités%20et%20simulations/media/image16.png)
 
 À présent, nous pouvons limiter notre recherche à environ 55 (plus ou moins 5) et augmenter le nombre de réplications de 1e3 à 1e4.
 
