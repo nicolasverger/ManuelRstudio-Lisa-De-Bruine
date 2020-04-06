@@ -1,4 +1,5 @@
 *Traduit par [<span class="underline">Ladislas Nalborczyk</span>](https://www.barelysignificant.com).*
+![image alt text](Chapitre%204%20_%20Données%20tidy/media/image1.jpg)
 
 Pour savoir si vous avez besoin de réviser ce chapitre, faites le **quiz** (voir 4.8).
 
@@ -101,7 +102,7 @@ Télécharger les données contenues dans le fichier [personality.csv](https://p
 | ----------------------------------------------------------------------------------------------- |
 | *ocean \<-* **read\_csv***("https://psyteachr.github.io/msc-data-skills/data/personality.csv")* |
 
-\<\< the resulting table seems too large to be copy-pasted here…\>
+![image alt text](Chapitre%204%20_%20Données%20tidy/media/image1.jpg)
 
 ## 4.5.1 gather()
 
