@@ -102,7 +102,7 @@ Télécharger les données contenues dans le fichier [personality.csv](https://p
 | ----------------------------------------------------------------------------------------------- |
 | *ocean \<-* **read\_csv***("https://psyteachr.github.io/msc-data-skills/data/personality.csv")* |
 
-![image alt text](Chapitre%204%20_%20Données%20tidy/media/image1.jpg)
+![image alt text](Chapitre%204%20_%20Données%20tidy/media/image5.jpg)
 
 ## 4.5.1 gather()
 
