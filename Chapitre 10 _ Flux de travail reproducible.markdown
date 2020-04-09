@@ -1,6 +1,9 @@
 Chapitre 10 : Flux de travail reproductible
 
-*Traduit par Mae Braud.* ![](./Chapitre%2010%20_%20Flux%20de%20travail%20reproducible/media/image1.png)
+*Traduit par Mae Braud.* 
+
+![image alt text](./Chapitre%2010%20_%20Flux%20de%20travail%20reproducible/media/image1.png)
+
 
 10.1 Objectifs d’apprentissage
 
