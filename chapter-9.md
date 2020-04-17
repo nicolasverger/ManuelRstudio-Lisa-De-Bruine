@@ -1,7 +1,7 @@
 Chapitre 9 : Introduction aux GLM
 ================
 
-*Chapitre traduit par Cédric Batailler et relu par Nicolas
+*Chapitre traduit par Cédric Batailler et relu par Nicolas B.
 Verger.*
 
 <img src="https://github.com/PsyTeachR/msc-data-skills/blob/master/images/memes/linear_regression.jpg?raw=true" class="meme right">
