@@ -1,4 +1,5 @@
 
+
 # Liste des chapitres traduits:
 
 * [Informations Générales](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/0.%20Informations%20G%C3%A9n%C3%A9rales.md)
@@ -18,5 +19,7 @@
 * [Chapitre 6 - Les liaisons de donnée](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%206_%20les%20liaisons%20de%20donn%C3%A9e.markdown)
 
 * [Chapitre 8 - Probabilités et simulations](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%208_%20probabilit%C3%A9s%20et%20simulations.markdown)
+
+* [Chapitre 9 : Introduction aux GLM](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/chapter-9.md)
 
 * [Chapitre 10 - Flux de travail reproducible](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%2010%20_%20Flux%20de%20travail%20reproducible.markdown)
