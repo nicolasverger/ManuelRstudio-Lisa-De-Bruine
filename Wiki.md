@@ -20,6 +20,6 @@
 
 * [Chapitre 8 - Probabilités et simulations](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%208_%20probabilit%C3%A9s%20et%20simulations.markdown)
 
-* [Chapitre 9 : Introduction aux GLM](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/chapter-9.md)
+* [Chapitre 9 - Introduction aux GLM](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/chapter-9.md)
 
 * [Chapitre 10 - Flux de travail reproducible](https://github.com/co-relab/ManuelRstudio-Lisa-De-Bruine/blob/master/Chapitre%2010%20_%20Flux%20de%20travail%20reproducible.markdown)
